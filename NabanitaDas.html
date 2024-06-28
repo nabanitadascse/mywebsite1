@@ -1,0 +1,120 @@
+<HTML>
+ <TITLE>
+  
+MY WEBPAGE
+ </TITLE>
+ 	<HEAD>
+ 		<h3>
+ 			<I>
+ 				<Center>
+					<marquee  loop="-1" scrollamount="2" width="100%"><font color="#CC66CC"
+					<font color="#800080">Welcome Nabanita's webpage</font></marquee>
+ 
+
+                               </Center>
+		      </I>
+             </h3>
+    </HEAD>
+<body bgcolor="#F4ECF7">
+<script type="text/javascript">
+		var d = new Date();
+		var time = d.getHours();
+if (time < 11.59)
+   {
+  document.write("<b><i><center>Good Morning...Have A Nice day!!!</center></i></b>");
+  }
+	else if (time>11.59 && time<16.59)
+  {
+  document.write("<b><i><center>Good Afternoon...</center></i></b>");
+  }
+	else if (time>16.59 && time<21.59)
+  {
+  document.write("<b><i><center>Good Evening!!!</center></i></b>");
+  }
+	else
+  {
+  document.write("<b><i><center>Good Night!!!</center></i></b>");
+  }
+</script>
+
+	 <script language="javascript">
+ 	var today = new Date();
+
+ </script>
+	<marquee behavior="scroll" bgcolor="pink" loop="-1" width="100%">
+   <i>
+   <font color="blue">
+        Today's date is : 
+   <strong>
+         <span id="time"></span>
+   </strong>           
+   </font>
+
+</script>
+
+<script language="javascript">
+var d=new Date();
+theDay=d.getDay();
+document.getElementById('time').innerHTML=today;
+ </script>
+
+   </i>
+</marquee> 
+
+ 
+<body onload="message()">
+
+<ol>
+ <li><a href="https://drive.google.com/drive/u/0/folders/1ZLyg4hsqVOx7v18HjFuJkZ0tAvsqqIyl" target="_blank">My Resume</a></li>
+ <li><a href="https://www.linkedin.com/in/nabanitad/" target="_blank">My Linkedin URL</a> </li>
+ <li><a href="https://www.facebook.com/nabanitadas.cse" target="_blank">My Facebook URL</a></li>
+ <li><a href="https://x.com/d_nabanita" target="_blank">My Twitter URL</a> </li>
+ <li><a href="https://www.youtube.com/channel/UCt1FAiyDZTvCkP-SJsPIwQA" target="_blank">My Youtube URL</a> </li>
+ <li><a href="https://scholar.google.com/citations?user=mKrWEd4AAAAJ&hl=en&authuser=1" target="_blank">My Google Scholar URL</a> </li> 
+<ol>
+
+<center>
+<script type="text/javascript">
+//You will receive a different greeting based
+//on what day it is. Note that Sunday=0,
+//Monday=1, Tuesday=2, etc.
+var d=new Date();
+theDay=d.getDay();
+switch (theDay)
+{
+case 1:
+  document.write("Its Monday...Busy Day...");
+  break;
+case 2:
+  document.write("<b><i>It's Tuesday...Office day...</b></i>");
+  break;
+case 3:
+  document.write("Boring Wednesday...Working day");
+  break;
+case 4:
+  document.write("It's Thrusday...I'm looking forward to this weekend");
+  break;
+case 5:
+  document.write("Finally Friday...");
+  break;
+case 6:
+  document.write("My Claening Day");
+  break;
+case 0:
+  document.write("Sleepy Sunday...");
+  break;
+}
+</script>
+</center>
+
+<script type="text/javascript">
+function show_alert()
+{
+alert("Welcome to My Webpage..Thank you for checking my webpage..Keep Scrolling.!");
+}
+</script>
+<input type="button" onclick="show_alert()" value="Hello!" 
+
+</body>
+</html>
+
